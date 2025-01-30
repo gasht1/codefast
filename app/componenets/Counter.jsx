@@ -11,11 +11,11 @@ const Counter = () => {
   return (
     <div>
       <div>
-        <button onClick={Decreamnt}>minus</button>
+        <button onClick={Decreamnt}>minus from your current value</button>
         <h1>{count}</h1>
 
         <div>
-          <button onClick={inecreamnt}>add</button>
+          <button onClick={inecreamnt}>add to your value </button>
         </div>
       </div>
     </div>
